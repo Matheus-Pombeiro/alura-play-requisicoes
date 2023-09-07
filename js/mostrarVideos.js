@@ -21,3 +21,9 @@ function constroiCard() {
     return video;
 
 };
+
+async function listaVideo() {
+
+    const lista = await conectaAPI.listaVideos();
+
+};
